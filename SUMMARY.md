@@ -7,6 +7,8 @@
 * [Keywords](language-reference/keywords.md)
 * [Symbols](language-reference/symbols.md)
 * [File Extensions](language-reference/file-extensions.md)
+* [Language Flags](language-reference/language-flags.md)
+* [Pre-Processor](language-reference/pre-processor.md)
 
 ## Library Reference
 
