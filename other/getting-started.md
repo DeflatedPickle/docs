@@ -49,6 +49,12 @@ And instead of having to preface `println` with `console` each time, you could i
 import println from console
 ```
 
+Or, you could do:
+
+```text
+import console::println
+```
+
 To import just the `println` function from package, meaning you would only have to do:
 
 ```text
@@ -82,7 +88,7 @@ pro main(first: int, second: int, type: str) {
         case "/" { result = first / second }
     }
 
-    console::print("#{first} #{type} #{second} = #{first }")
+    console::println("#{first} #{type} #{second} = #{first }")
 }
 ```
 
