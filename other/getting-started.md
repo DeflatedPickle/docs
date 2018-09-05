@@ -22,7 +22,7 @@ import console
 This will then import the console package. To access the print procedure from the console package, you'll want to, inside of the main procedure, type:
 
 ```text
-console::println("Hello, World!")
+call console::println("Hello, World!")
 ```
 
 Now you should have a file that looks like this:
@@ -31,7 +31,7 @@ Now you should have a file that looks like this:
 import console
 
 pro main() {
-    console::println("Hello, World!")
+    call console::println("Hello, World!")
 }
 ```
 
@@ -58,7 +58,7 @@ import console::println
 To import just the `println` function from package, meaning you would only have to do:
 
 ```text
-println("Hello, World!")
+call println("Hello, World!")
 ```
 
 ## Arithmetic Machine
@@ -88,7 +88,7 @@ pro main(first: int, second: int, type: str) {
         case "/" { result = first / second }
     }
 
-    console::println("#{first} #{type} #{second} = #{first }")
+    call console::println("#{first} #{type} #{second} = #{first }")
 }
 ```
 
