@@ -285,6 +285,20 @@ var my_var := {value}
 val my_val := {value}
 ```
 
+## Properties
+
+A property is like a variable, though they have easy getters and setters.
+
+```text
+prop my_prop: str = "hello, " {
+    getter { return me + "world" }
+    setter(value: str) { me = value }
+}
+
+# Prints "hello, world"
+println(my_prop)
+```
+
 ## Statements
 
 ### If

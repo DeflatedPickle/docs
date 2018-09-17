@@ -43,4 +43,6 @@
 * `new` - New \(used to create new instances of an object\)
 * `call` - Call \(used to call a subroutine\)
 * `prop` - Property \(values with easy getters and setters\)
+* `getter` - Getter \(changes how the property is returned\)
+* `setter` - Setter \(changes how the property is set\)
 
