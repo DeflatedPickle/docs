@@ -36,8 +36,9 @@
 * `del` - Delete \(deletes an object in the current scope\)
 * `magic` - Magic \(things that exist in the compiler/interpreter\)
 * `native` - Native \(something wrapping C code\)
-* `import` - Import
-* `from` - From
+* `import` - Import \(imports the file into the local scope\)
+* `from` - From \(cherry-picks objects from an import\)
+* `require` - Require \(adds the file to the compilation order, in front of the current file\)
 * `anon` - Anonymous Object
 * `lock` - Locks \(completely locks an object, even appending to lists, by providing a class flag which is used on core checks, will not lock user objects unless used correctly\)
 * `new` - New \(used to create new instances of an object\)
