@@ -35,7 +35,7 @@ toggle flag MyToggle(value: bool) {
     if (value) {
         print("MyToggle on!")
     }
-    elf {
+    else {
         print("MyToggle off!")
     }
 }
