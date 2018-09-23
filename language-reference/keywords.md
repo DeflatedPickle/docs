@@ -2,8 +2,7 @@
 
 * `true` - Boolean
 * `false` - Boolean
-* `var` - Mutable Variable Assignment Initiation
-* `val` - Immutable Variable Assignment Initiation
+* `var` - Variable Initiation
 * `none` - Nothing
 * `char` - Character
 * `str` - String
@@ -13,7 +12,7 @@
 * `byte` - Byte
 * `dyn` - Dynamic
 * `if` - If
-* `elf` - Else If - Using the keyword "elf" for "else if" layers the if statement in a staircase-like fashion.
+* `elf` - Else If
 * `else` - Else
 * `for` - For
 * `in` - In
@@ -21,7 +20,7 @@
 * `sub` - Subroutine
 * `fun` - Function
 * `pro` - Procedure
-* `meth` - Method - Methods exist only with-in classes, so the keyword uses 4 letters to distance it from functions and procedures.
+* `meth` - Method
 * `class` - Class
 * `sing` - Singleton
 * `pub` - Public
