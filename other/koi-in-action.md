@@ -269,6 +269,20 @@ Classes are objects that can contain variables and methods. Classes can be exten
 class MyClass({extensions*}) {block}
 ```
 
+### Operator Overriding
+
+Operators are things such as addition. When used between two integers, they will be added together, as this is how the Integer class handles addition. However, with custom classes, you are able to override how the class will react to addition or any other operator.
+
+This example overrides the addition operator and requires the other value to be an integer:
+
+```text
+core import console::println
+
+operator +(int other) {
+    call println(other)
+}
+```
+
 ## Variables
 
 Variables are names that are attached to values. The variables available depend on the current scope. Variables can be defined as mutable with "`var`" or as final with "`val`".

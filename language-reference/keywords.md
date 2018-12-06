@@ -21,6 +21,7 @@
 * `fun` - Function
 * `pro` - Procedure
 * `meth` - Method
+* `operator` - Operator
 * `class` - Class
 * `sing` - Singleton
 * `pub` - Public
